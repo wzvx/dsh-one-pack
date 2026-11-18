@@ -7,14 +7,14 @@
 
 | 项 | 值 |
 |---|---|
-| 仓库 | `D:\Documents\deepseek-harness\default-workspace\one-pack`（git：https://github.com/Zhang-Eli/dsh-one-pack） |
+| 仓库 | `D:\Documents\deepseek-harness\default-workspace\one-pack`（git：https://github.com/wzvx/dsh-one-pack） |
 | npm | `dsh-one-pack`，最新 **0.4.8**（0.4.8 是纯文档版本，代码与 0.4.7 相同） |
 | git | HEAD `dda880c`，tag `v0.4.8`，main 已推送 |
 | GitHub Release | v0.4.8（v0.4.7、v0.3.3 亦有） |
 | 本地 DSH | 以 `link:` 方式安装在 `desktop` profile，改完代码用 `plugin_manager set_bundle` 关再开即可重载 |
 | 测试 | `node --test test/*.test.mjs` → **55/55** 通过（~1.1s，纯离线） |
 | 发布门禁 | `safeToPublish: true`，0 error / 3 warn（repo-missing 占位、git-tag-missing 等发布前正常项） |
-| 插件市场 | awesome-dsh-plugin 条目已备好（`.tmp/awesome-entry/Zhang-Eli__dsh-one-pack.yml`），仓库满 24h 后（2026-11-11 18:13 Asia/Shanghai）提 PR，尚未提交 |
+| 插件市场 | awesome-dsh-plugin 条目已备好（`.tmp/awesome-entry/wzvx__dsh-one-pack.yml`），仓库满 24h 后（2026-11-11 18:13 Asia/Shanghai）提 PR，尚未提交 |
 
 ## 2. 架构地图
 

@@ -6,3 +6,8 @@ Thumbs.db
 .tmp/
 coverage/
 dist/
+
+# npm pack artifacts
+*.tgz
+# gh CLI local state accidentally created when HOME is unset
+.local/

@@ -67,7 +67,7 @@ dsh plugin --profile desktop add dsh-one-pack
 本地开发安装：
 
 ```bash
-git clone https://github.com/Zhang-Eli/dsh-one-pack.git
+git clone https://github.com/wzvx/dsh-one-pack.git
 # 在 DSH 里执行（替换为仓库绝对路径）：
 plugin_manager install_bundle("D:/path/to/dsh-one-pack")
 ```
@@ -149,4 +149,4 @@ GitHub 上的更新要等下一次 `npm publish` 才会同步到 npm 页面。
 
 ## 7. License
 
-[MIT](./LICENSE) © 2026 Zhang-Eli。`lib/vendor/` 部分版权归 dsh-github-sync 作者所有，详见 [NOTICE](./NOTICE)。
+[MIT](./LICENSE) © 2026 wzvx。`lib/vendor/` 部分版权归 dsh-github-sync 作者所有，详见 [NOTICE](./NOTICE)。

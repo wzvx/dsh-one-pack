@@ -173,7 +173,7 @@ export class SyncEngine {
 侧栏 `sidebar.panellist`（id `one-pack`, order 30, label 来自 locale）+ `main` 面板（key `one-pack`）。
 面板（0.3.0 起）：
 - 顶部 hero 卡：左列连接区（未保存 token 时只有一个 Token 输入框 +「保存并创建仓库」，保存后自动建私有仓库；已连接时只显示仓库名、设备，以及「更换 Token / 移除 Token」文字操作，未建仓时显示「创建私有仓库」），连接操作下方是 5 个同步分区开关（开关 + 名称 + 默认标记，无独立卡框、无说明小字）；右列同步区（推送/拉取两个紧凑主按钮 + 上次同步 + 定时推送开关与时间 + 连接就绪/需配置提示）。
-- hero 卡底部：`PanelFooter` 页脚——左侧「反馈问题」链接（GitHub issues），右侧「Developed by Zhang-Eli」+ GitHub 头像（加载失败自动隐藏）。
+- hero 卡底部：`PanelFooter` 页脚——左侧「反馈问题」链接（GitHub issues），右侧「Developed by wzvx」+ GitHub 头像（加载失败自动隐藏）。
 - 下方最近历史：每条显示方向/结果/时间/commit，副标题为本次同步的分区列表；告警数量可点击展开全文。
 - preview 摘要对话框保留（items/warnings + 确认执行）；确认后改走 `POST /sync/start`，面板不阻塞，顶部显示「后台同步中」chip，`pollJob` 轮询 `GET /sync/job`，完成后 toast + 刷新状态/历史。
 - 拉取结果 `applied.restartRequired` 为 true 时弹 `RestartDialog`（立即重启 / 好的）；「立即重启」先 `POST /restart` 再 `location.reload()`。拉取结果含会话导入时额外提示「已导入 N 个会话到工作区」。

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.5.1
+
+GitHub 账号改名 `Zhang-Eli` → `wzvx`，把署名与仓库链接全部跟上（无功能改动）。
+
+- 面板页脚：`Developed by wzvx`，头像与主页链接改为 `https://github.com/wzvx`，「反馈问题」指向 `wzvx/dsh-one-pack/issues`
+- `package.json` 的 repository / homepage / bugs 三处 URL、README 的 clone 地址与 License 署名、DESIGN 与 docs/DEVELOPMENT 的仓库行同步更新
+- `git remote origin` 改指 `https://github.com/wzvx/dsh-one-pack.git`；旧地址 GitHub 侧 301 跳转，历史 clone 仍可用
+- CHANGELOG 历史条目里的旧 handle 作为发布记录保留原文
+
 ## 0.5.0
 
 多设备同步：仓库按设备命名空间隔离，换机不再互相覆盖。

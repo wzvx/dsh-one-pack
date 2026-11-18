@@ -28,9 +28,9 @@ window.__ModuleLoader__.load({
     const API_BASE = '/one-pack/api/'
     const TOKEN_URL = 'https://github.com/settings/tokens/new?scopes=repo&description=One%20Pack%20sync'
     // Author / feedback links shown at the foot of the panel.
-    const REPO_URL = 'https://github.com/Zhang-Eli/dsh-one-pack'
+    const REPO_URL = 'https://github.com/wzvx/dsh-one-pack'
     const ISSUES_URL = REPO_URL + '/issues'
-    const AUTHOR_NAME = 'Zhang-Eli'
+    const AUTHOR_NAME = 'wzvx'
     const AUTHOR_URL = 'https://github.com/' + AUTHOR_NAME
 
     function openTokenPage() {
